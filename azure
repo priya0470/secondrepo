@@ -1,0 +1,19 @@
+class Main {
+  public static void main(String[] args) {
+
+    // create variables
+    int a = 7;
+    long b = -23333343;
+    double c = 9.6777777;
+    float d = -9.9f;
+
+    // print the absolute value
+    System.out.println(Math.abs(a));  // 7
+    System.out.println(Math.abs(c));  // 9.6777777
+
+
+    // print the value without negative sign
+    System.out.println(Math.abs(b));  // 23333343
+    System.out.println(Math.abs(d));  // 9.9
+  }
+}
